@@ -2,6 +2,10 @@
 
 All notable changes to this project are documented here. This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.1.1]
+
+- Release assets are now built and published through GitHub Actions with build provenance attestations.
+
 ## [2.1.0]
 
 - Grand staff editor and `spartito` / `score` code-block rendering.
