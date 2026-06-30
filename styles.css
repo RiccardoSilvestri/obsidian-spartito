@@ -1,0 +1,133 @@
+.spartito-view {
+  padding: 16px;
+  overflow: auto;
+}
+
+.spartito-meta {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.spartito-title {
+  flex: 1;
+}
+
+.spartito-tempo {
+  width: 90px;
+}
+
+.spartito-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.spartito-select {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85em;
+}
+
+.spartito-dot {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 6px;
+}
+
+.spartito-keys {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.spartito-keys button {
+  min-width: 46px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.spartito-rest {
+  font-style: italic;
+}
+
+.spartito-hands {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.spartito-hand {
+  flex: 1;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.spartito-hand label {
+  font-size: 0.85em;
+  color: var(--text-muted);
+}
+
+.spartito-input {
+  width: 100%;
+  min-height: 60px;
+  font-family: var(--font-monospace);
+  resize: vertical;
+}
+
+.spartito-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.spartito-score {
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  padding: 12px;
+  overflow-x: auto;
+}
+
+.spartito-score svg {
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.spartito-status {
+  display: none;
+  color: var(--text-warning, var(--text-error));
+  font-size: 0.85em;
+  margin-top: 8px;
+}
+
+.spartito-status.is-visible {
+  display: block;
+}
+
+.spartito-hint {
+  color: var(--text-muted);
+  font-size: 0.85em;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.spartito-name-input {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.spartito-name-row {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
